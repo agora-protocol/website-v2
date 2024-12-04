@@ -19,6 +19,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# ignore .yarn/cache directory
+.yarn/cache
+
 # IDE specific files
 .idea
 .zed
