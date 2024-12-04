@@ -1,3 +1,52 @@
+samuele:
+  name: Samuele Marro
+  title: Co-Founder @ Agora Protocol
+  url: https://samuelemarro.it/
+  image_url: https://github.com/samuelemarro.png
+  socials:
+    x: MarroSamuele
+    github: samuelemarro
+
+emanuele:
+  name: Emanuele La Malfa
+  title: Co-Founder @ Agora Protocol
+  url: https://www.cs.ox.ac.uk/people/emanuele.lamalfa/
+
+jesse:
+  name: Jesse Wright
+  title: Co-Founder @ Agora Protocol
+  url: https://www.cs.ox.ac.uk/people/jesse.wright/
+
+guohao:
+  name: Guohao Li
+  title: Co-Founder @ Agora Protocol
+  url: https://ghli.org/
+
+nigel:
+  name: Prof. Nigel Shadbolt
+  title: Co-Founder @ Agora Protocol
+  url: https://www.oxfordmartin.ox.ac.uk/people/nigel-shadbolt
+
+michael:
+  name: Michael Wooldridge
+  title: Co-Founder @ Agora Protocol
+  url: https://www.cs.ox.ac.uk/people/michael.wooldridge/
+
+philip:
+  name: Philip Torr
+  title: Co-Founder @ Agora Protocol
+  url: https://eng.ox.ac.uk/people/philip-torr/
+
+lux:
+  name: Lux Goode
+  title: Contributor @ Agora Protocol
+  url: https://github.com/goodlux
+  image_url: https://github.com/goodlux.png
+  socials:
+    x: lux
+    bluesky: lux.bsky.social
+    github: goodlux
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
@@ -15,7 +64,7 @@ slorber:
   image_url: https://github.com/slorber.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: "/all-sebastien-lorber-articles"
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber

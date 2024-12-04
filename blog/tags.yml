@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+protocol:
+  label: protocol
+  permalink: /protocol
+  description: core protocol
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+integrations:
+  label: integrations
+  permalink: /integrations
+  description: partner integrations
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+news:
+  label: news
+  permalink: /news
+  description: news and updates
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+technial:
+  label: technical
+  permalink: /technical
+  description: technical information
