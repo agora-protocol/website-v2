@@ -144,21 +144,13 @@ const Versions = () => {
               <VersionItem
                 key={'version_' + version}
                 version={version}
-                archivedDocumentationUrl={archivedDocumentationUrl}
+                //archivedDocumentationUrl={archivedDocumentationUrl}
                 currentVersion={currentVersion}
               />
             )
           )}
         </tbody>
       </table>
-      <p>
-        The documentation for versions below <code>0.60</code> can be found on
-        the separate website called{' '}
-        <a href="https://archive.reactnative.dev/versions">
-          React Native Archive
-        </a>
-        .
-      </p>
     </Layout>
   );
 };
