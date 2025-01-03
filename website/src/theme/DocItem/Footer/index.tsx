@@ -49,7 +49,7 @@ export default function DocItemFooter() {
 
   return (
     <>
-      <DocsRating label={metadata.id} />
+      {/*<DocsRating label={metadata.id} />*/}
       <footer
         className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
         {canDisplayTagsRow && <TagsRow tags={tags} />}
