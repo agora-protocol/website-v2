@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Contributing Overview
-description: How to contribute to React Native
+description: How to contribute to Agora Protocol
 ---
 
 <!-- alex disable simple simply -->
@@ -34,7 +34,7 @@ There are other ways you can contribute without writing a single line of code. H
 
 2. **Reviewing pull requests for the docs.**
 
-   Reviewing [documentation updates](https://github.com/facebook/react-native-website/pulls) can be as simple as checking for spelling and grammar.
+   Reviewing [documentation updates](https://github.com/agora-protocol/agora-protocol.github.io/pulls) can be as simple as checking for spelling and grammar.
    If you encounter situations that can be explained better in the docs, click **Edit** at the top of most docs pages to get started with your own contribution.
 
 3. **Help people write test plans.**
@@ -62,7 +62,7 @@ The main repository contains the React Native framework itself, and it is here w
 
 There are a few other repositories you might want to familiarize yourself with:
 
-- **React Native website** which contains the source code for the website, including the documentation, located [in this repository](https://github.com/facebook/react-native-website).
+- **React Native website** which contains the source code for the website, including the documentation, located [in this repository](https://github.com/agora-protocol/agora-protocol.github.io).
 - **Releases** conversations are happening [in this discussion repo](https://github.com/reactwg/react-native-releases/discussions).
 - **Changelog** for the releases can be found [here](https://github.com/facebook/react-native/blob/main/CHANGELOG.md).
 - **Discussions** about React Native take place in the [Discussions and Proposals](https://github.com/react-native-community/discussions-and-proposals) repository.
@@ -87,12 +87,12 @@ If you are adding new functionality or introducing a change in behavior, we will
 
 ### Contributing to the Blog
 
-The React Native blog is generated [from the Markdown sources for the blog](https://github.com/facebook/react-native-website/tree/HEAD/website/blog).
+The React Native blog is generated [from the Markdown sources for the blog](https://github.com/agora-protocol/agora-protocol.github.io/tree/HEAD/website/blog).
 
 Please open an issue in the React Native website repository or tag us on [@ReactNative on Twitter](https://twitter.com/reactnative) and get the go-ahead from a maintainer before writing an article intended for the React Native blog.
 In most cases, you might want to share your article on your own blog or writing medium instead. It's worth asking, though, in case we find your article is a good fit for the blog.
 
-We recommend referring to the `react-native-website` repository [Readme file](https://github.com/facebook/react-native-website#-contributing) to learn more about contributing to the website in general.
+We recommend referring to the `react-native-website` repository [Readme file](https://github.com/agora-protocol/agora-protocol.github.io#-contributing) to learn more about contributing to the website in general.
 
 ## Contributing Code
 

@@ -1,13 +1,13 @@
 {
-  "name": "react-native-website",
-  "description": "React Native website",
+  "name": "agora-protocol-website",
+  "description": "Agora Protocol website",
   "version": "0.0.1",
   "private": true,
   "license": "CC-BY-4.0",
-  "homepage": "https://reactnative.dev/",
-  "repository": "github:facebook/react-native-website",
+  "homepage": "https://agoraprotocol.org/",
+  "repository": "github:agora-protocol/agora-protocol.github.io",
   "bugs": {
-    "url": "https://github.com/facebook/react-native-website/issues"
+    "url": "https://github.com/agora-protocol/agora-protocol.github.io/issues"
   },
   "scripts": {
     "docusaurus": "docusaurus",

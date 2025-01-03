@@ -1,8 +1,8 @@
-# [reactnative.dev](https://reactnative.dev/) &middot; [![CC BY 4.0 license](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE-docs) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) <a href="https://twitter.com/intent/follow?screen_name=reactnative"><img src="https://img.shields.io/twitter/follow/reactnative.svg?label=Follow%20@reactnative" alt="Follow @reactnative" /></a>
+# [agoraprotocol.org](https://agoraprotocol.org/) &middot; [![CC BY 4.0 license](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE-docs) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) <a href="https://twitter.com/intent/follow?screen_name=reactnative"><img src="https://img.shields.io/twitter/follow/reactnative.svg?label=Follow%20@reactnative" alt="Follow @reactnative" /></a>
 
-This repo contains the website configuration and documentation powering the [React Native website](https://reactnative.dev/).
+This repo contains the website configuration and documentation powering the [Agora Protocol website](https://agoraprotocol.org/).
 
-If you are looking for the source code of the [React Native Archive website](https://archive.reactnative.dev/) select the [`archive`](https://github.com/facebook/react-native-website/tree/archive) branch.
+If you are looking for the source code of the [React Native Archive website](https://archive.reactnative.dev/) select the [`archive`](https://github.com/agora-protocol/agora-protocol.github.io/tree/archive) branch.
 
 ## Contents
 
@@ -20,7 +20,7 @@ If you are looking for the source code of the [React Native Archive website](htt
 1.  [Node](https://nodejs.org/en/download/) _(version 12 or greater)_.
 1.  [Yarn](https://yarnpkg.com/lang/en/docs/install/) _(version 1.5 or greater)_.
 1.  A fork of the repo _(for any contributions)_.
-1.  A clone of the `react-native-website` repo.
+1.  A clone of the `agora-protocol.github.io` repo.
 
 ### Installation
 
@@ -168,7 +168,7 @@ If possible, test any visual changes in all latest versions of the following bro
 1.  `git add -A && git commit -m "My message"` to stage and commit your changes.
     > replace `My message` with a commit message, such as `Fixed header logo on Android`
 1.  `git push my-fork-name the-name-of-my-branch`
-1.  Go to the [react-native-website repo](https://github.com/facebook/react-native-website) and you should see recently pushed branches.
+1.  Go to the [react-native-website repo](https://github.com/agora-protocol/agora-protocol.github.io) and you should see recently pushed branches.
 1.  Follow GitHub's instructions.
 1.  Describe briefly your changes (in case of visual changes, please include screenshots).
 

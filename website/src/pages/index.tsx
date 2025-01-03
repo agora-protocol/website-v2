@@ -16,17 +16,17 @@ import Home from './Home';
 const Index = () => {
   return (
     <Layout
-      description="A framework for building native apps using React"
+      description="Scalable communication between agents"
       wrapperClassName="homepage">
       <Head>
-        <title>React Native · Learn once, write anywhere</title>
+        <title>Agora Protocol - Scalable Communication Between Agents</title>
         <meta
           property="og:title"
-          content="React Native · Learn once, write anywhere"
+          content="Agora Protocol · Scalable Communication Between Agents"
         />
         <meta
           property="twitter:title"
-          content="React Native · Learn once, write anywhere"
+          content="Agora Protocol · Scalable Communication Between Agents"
         />
       </Head>
       <Home />

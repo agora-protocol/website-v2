@@ -12,14 +12,14 @@ import users from './showcase.json';
 import versions from './versions.json';
 
 const lastVersion = versions[0];
-const copyright = `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc.`;
+const copyright = `Copyright © ${new Date().getFullYear()} Agora Protocol`;
 
 const commonDocsOptions = {
   breadcrumbs: false,
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
   editUrl:
-    'https://github.com/facebook/react-native-website/blob/main/website/',
+    'https://github.com/agora-protocol/agora-protocol.github.io/blob/main/website/',
   remarkPlugins: [require('@react-native-website/remark-snackplayer')],
 };
 
@@ -29,16 +29,16 @@ const config: Config = {
   future: {
     // Make Docusaurus build faster - enabled by default
     // See https://github.com/facebook/docusaurus/issues/10556
-    // See https://github.com/facebook/react-native-website/pull/4268
+    // See https://github.com/agora-protocol/agora-protocol.github.io/pull/4268
     // See https://docusaurus.io/blog/releases/3.6
     experimental_faster: (process.env.DOCUSAURUS_FASTER ?? 'true') === 'true',
   },
 
-  title: 'React Native',
-  tagline: 'A framework for building native apps using React',
-  organizationName: 'facebook',
-  projectName: 'react-native',
-  url: 'https://reactnative.dev',
+  title: 'Agora Protocol',
+  tagline: 'A scalable protocol for decentralized agentic networks',
+  organizationName: 'agora-protocol',
+  projectName: 'agora-protocol.github.io',
+  url: 'https://agoraprotocol.org',
   baseUrl: '/',
   clientModules: [
     require.resolve('./modules/snackPlayerInitializer.js'),
@@ -118,17 +118,17 @@ const config: Config = {
   ],
   plugins: [
     'docusaurus-plugin-sass',
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      {
-        id: 'architecture',
-        path: 'architecture',
-        routeBasePath: '/architecture',
-        sidebarPath: require.resolve('./sidebarsArchitecture'),
-        ...commonDocsOptions,
-      },
-    ],
+    //[
+    //  'content-docs',
+    //  /** @type {import('@docusaurus/plugin-content-docs').Options} */
+    //  {
+    //    id: 'architecture',
+    //    path: 'architecture',
+    //    routeBasePath: '/architecture',
+    //    sidebarPath: require.resolve('./sidebarsArchitecture'),
+    //    ...commonDocsOptions,
+    //  },
+    //],
     [
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -213,14 +213,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    announcementBar: {
+    /*announcementBar: {
       id: 'new-architecture',
       content:
         'The New Architecture has arrived - <a target="_blank" rel="noopener noreferrer" href="/blog/2024/10/23/the-new-architecture-is-here">learn more</a>',
       backgroundColor: '#20232a',
       textColor: '#fff',
       isCloseable: false,
-    },
+    },*/
     prism: {
       defaultLanguage: 'jsx',
       theme: require('./core/PrismTheme'),
@@ -258,10 +258,10 @@ const config: Config = {
       ],
     },
     navbar: {
-      title: 'React Native',
+      title: 'Agora Protocol',
       logo: {
         src: 'img/header_logo.svg',
-        alt: 'React Native',
+        alt: 'Agora Protocol',
       },
       style: 'dark',
       items: [
@@ -276,20 +276,14 @@ const config: Config = {
               docId: 'getting-started',
             },
             {
-              label: 'Components',
+              label: 'Protocol',
               type: 'doc',
-              docId: 'components-and-apis',
+              docId: 'specification',
             },
             {
-              label: 'APIs',
+              label: 'API',
               type: 'doc',
-              docId: 'accessibilityinfo',
-            },
-            {
-              label: 'Architecture',
-              type: 'doc',
-              docId: 'architecture-overview',
-              docsPluginId: 'architecture',
+              docId: 'camel-toolformer',
             },
           ],
         },
@@ -308,16 +302,6 @@ const config: Config = {
           docsPluginId: 'community',
         },
         {
-          to: '/showcase',
-          label: 'Showcase',
-          position: 'right',
-        },
-        {
-          to: '/blog',
-          label: 'Blog',
-          position: 'right',
-        },
-        {
           type: 'docsVersionDropdown',
           position: 'left',
           dropdownActiveClassDisabled: true,
@@ -329,7 +313,7 @@ const config: Config = {
           ],
         },
         {
-          href: 'https://github.com/facebook/react-native',
+          href: 'https://github.com/agora-protocol/python',
           'aria-label': 'GitHub repository',
           position: 'right',
           className: 'navbar-github-link',
@@ -355,10 +339,6 @@ const config: Config = {
               label: 'APIs',
               to: 'docs/accessibilityinfo',
             },
-            {
-              label: 'Architecture',
-              to: 'architecture/overview',
-            },
           ],
         },
         {
@@ -376,50 +356,46 @@ const config: Config = {
               label: 'Community',
               to: 'community/overview',
             },
-            {
-              label: 'Directory',
-              href: 'https://reactnative.directory/',
-            },
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/react-native',
-            },
+            //{
+            //  label: 'Stack Overflow',
+            //  href: 'https://stackoverflow.com/questions/tagged/react-native',
+            //},
           ],
         },
         {
           title: 'Find us',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
+            //{
+            //  label: 'Blog',
+            //  to: 'blog',
+            //},
             {
               label: 'X',
-              href: 'https://x.com/reactnative',
+              href: 'https://x.com/Agora_Protocol',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/react-native',
+              href: 'https://github.com/agora-protocol/python',
             },
           ],
         },
-        {
-          title: 'Explore More',
-          items: [
-            {
-              label: 'ReactJS',
-              href: 'https://react.dev/',
-            },
-            {
-              label: 'Privacy Policy',
-              href: 'https://opensource.fb.com/legal/privacy/',
-            },
-            {
-              label: 'Terms of Service',
-              href: 'https://opensource.fb.com/legal/terms/',
-            },
-          ],
-        },
+        //{
+        //  title: 'Explore More',
+        //  items: [
+        //    {
+        //      label: 'ReactJS',
+        //      href: 'https://react.dev/',
+        //    },
+        //    {
+        //      label: 'Privacy Policy',
+        //      href: 'https://opensource.fb.com/legal/privacy/',
+        //    },
+        //    {
+        //      label: 'Terms of Service',
+        //      href: 'https://opensource.fb.com/legal/terms/',
+        //    },
+        //  ],
+        //},
       ],
       logo: {
         alt: 'Meta Open Source Logo',

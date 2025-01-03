@@ -21,16 +21,16 @@ function Hero() {
       <div className={styles.socialLinks}>
         <a
           className="twitter-follow-button"
-          href={`https://twitter.com/reactnative?ref_src=twsrc%5Etfw`}
+          href={`https://twitter.com/Agora_Protocol`}
           data-show-count="false"
           data-size="large">
-          Follow @reactnative
+          Follow @Agora_Protocol
         </a>
         <GitHubButton
-          href="https://github.com/facebook/react-native"
+          href="https://github.com/agora-protocol/python"
           data-icon="octicon-star"
           data-size="large"
-          aria-label="Star facebook/react-native on GitHub">
+          aria-label="Star agora-protocol/python on GitHub">
           Star
         </GitHubButton>
       </div>
@@ -47,14 +47,16 @@ function Hero() {
       </div>
       <div className={styles.content}>
         <Logo />
-        <h1 className={styles.title}>React Native</h1>
-        <h2 className={styles.subtitle}>Learn once, write anywhere.</h2>
+        <h1 className={styles.title}>Agora Protocol</h1>
+        <h2 className={styles.subtitle}>
+          Scalable communication between agents.
+        </h2>
         <div className={styles.buttonContainer}>
-          <a href="/docs/environment-setup" className={styles.primaryButton}>
+          <a href="/docs/getting-started" className={styles.primaryButton}>
             Get Started
           </a>
-          <a href="/docs/getting-started" className={styles.secondaryButton}>
-            Learn the Basics
+          <a href="/docs/protocol" className={styles.secondaryButton}>
+            Protocol Specification
           </a>
         </div>
       </div>
