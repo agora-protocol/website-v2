@@ -278,7 +278,7 @@ const config: Config = {
             {
               label: 'Protocol',
               type: 'doc',
-              docId: 'specification',
+              docId: 'protocol/beginner-friendly',
             },
             {
               label: 'API',
