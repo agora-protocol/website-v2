@@ -17,9 +17,12 @@ function CallToAction() {
       <div className={styles.background} />
       <div className={styles.container}>
         <Logo />
-        <h1 className={styles.title}>Welcome to the React Native community</h1>
-        <a href="/docs/environment-setup" className={styles.primaryButton}>
+        <h1 className={styles.title}>Let's build better agents.</h1>
+        <a href="/docs/getting-started" className={styles.primaryButton}>
           Get Started
+        </a>
+        <a href="/docs/environment-setup" className={styles.primaryButton}>
+          Discord
         </a>
       </div>
     </div>

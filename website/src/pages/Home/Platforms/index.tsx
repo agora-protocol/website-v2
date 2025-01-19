@@ -18,58 +18,24 @@ function Platforms() {
   return (
     <Section>
       <SectionTitle
-        title="Create native apps for Android, iOS, and more using React"
-        description="React Native brings the best parts of developing with React to native development. It's a best-in-class JavaScript library for building user interfaces."
+        title="An efficient and robust protocol for communication between LLM agents."
+        description={null}
       />
-      <div className={styles.platformsContainer}>
-        <div className={styles.featureContainer}>
-          <div className={styles.codeEditor}>
-            <div className={styles.codeEditorTitleContainer}>index.js</div>
-            <div className={styles.codeEditorContentContainer}>
-              <pre>
-                <span style={{color: 'var(--home-code-red)'}}>function</span>{' '}
-                <span style={{color: 'var(--home-code-purple'}}>
-                  HomeScreen
-                </span>
-                {`()`}
-                {` {`} <br />
-                <span
-                  style={{color: 'var(--home-code-red)'}}>{`  return `}</span>
-                {`(`} <br />
-                {`    <`}
-                <span style={{color: 'var(--home-code-green)'}}>View</span>
-                {`>`} <br />
-                {`      <`}
-                <span style={{color: 'var(--home-code-green)'}}>{`Text`}</span>
-                {`>`} Hello World 👋 🌍!{`</`}
-                <span style={{color: 'var(--home-code-green)'}}>{`Text`}</span>
-                {`>`}
-                <br />
-                {`    </`}
-                <span style={{color: 'var(--home-code-green)'}}>View</span>
-                {`>`} <br />
-                {`  );`} <br />
-                {`}`}
-              </pre>
-            </div>
-          </div>
-          <div className={styles.deviceContainer}>
-            <ThemeImage
-              lightSrc="/img/homepage/devices.png"
-              darkSrc="/img/homepage/devices-dark.png"
-              className={styles.devices}
-              alt="Android device and iOS device"
-            />
-          </div>
+      <div className="row">
+        <div className="col col--6">
+          Go from this
+          <ThemeImage
+            lightSrc="https://placehold.co/600x400"
+            darkSrc="https://placehold.co/600x400"
+          />
         </div>
-      </div>
-      <div className={styles.foxFactContainer}>
-        <FoxFact className={styles.fox} />
-        <p>
-          <strong>Written in JavaScript, rendered with native code.</strong>{' '}
-          React primitives render to native platform UI, meaning your app uses
-          the same native platform APIs other apps do.
-        </p>
+        <div className="col col--6">
+          To this
+          <ThemeImage
+            lightSrc="https://placehold.co/600x400"
+            darkSrc="https://placehold.co/600x400"
+          />
+        </div>
       </div>
     </Section>
   );
