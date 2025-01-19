@@ -266,7 +266,7 @@ const config: Config = {
       style: 'dark',
       items: [
         {
-          label: 'Development',
+          label: 'Docs',
           type: 'dropdown',
           position: 'right',
           items: [
@@ -287,21 +287,21 @@ const config: Config = {
             },
           ],
         },
-        {
+        /*{
           type: 'doc',
           docId: 'overview',
           label: 'Contributing',
           position: 'right',
           docsPluginId: 'contributing',
-        },
-        {
+        },*/
+        /*{
           type: 'doc',
           docId: 'overview',
           label: 'Community',
           position: 'right',
           docsPluginId: 'community',
-        },
-        {
+        },*/
+        /*{
           type: 'docsVersionDropdown',
           position: 'left',
           dropdownActiveClassDisabled: true,
@@ -311,6 +311,12 @@ const config: Config = {
               label: 'All versions',
             },
           ],
+        },*/
+        {
+          href: 'https://github.com/agora-protocol/python',
+          'aria-label': 'Discord server',
+          position: 'right',
+          className: 'navbar-discord-link',
         },
         {
           href: 'https://github.com/agora-protocol/python',
@@ -397,11 +403,6 @@ const config: Config = {
         //  ],
         //},
       ],
-      logo: {
-        alt: 'Meta Open Source Logo',
-        src: 'img/oss_logo.svg',
-        href: 'https://opensource.fb.com/',
-      },
       copyright,
     },
     algolia: {
