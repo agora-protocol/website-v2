@@ -209,9 +209,9 @@ const config: Config = {
   ],
   themeConfig: {
     colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     /*announcementBar: {
       id: 'new-architecture',
