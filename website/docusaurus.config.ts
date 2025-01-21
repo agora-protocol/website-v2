@@ -57,7 +57,7 @@ const config: Config = {
     {src: 'https://snack.expo.dev/embed.js', defer: true},
     {src: 'https://platform.twitter.com/widgets.js', async: true},
   ],
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
   titleDelimiter: '·',
   customFields: {
     users,
