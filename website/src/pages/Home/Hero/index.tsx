@@ -38,15 +38,11 @@ function Hero() {
         <div className={styles.gridBackground}>
           <GridBackground />
         </div>
-        <div className={styles.devices}>
-          <Devices />
-        </div>
         <div className={styles.floorBackground}>
           <FloorBackground />
         </div>
       </div>
       <div className={styles.content}>
-        <Logo />
         <h1 className={styles.title}>Agora Protocol</h1>
         <h2 className={styles.subtitle}>
           Scalable and reliable communication between your agents.
