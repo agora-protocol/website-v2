@@ -258,10 +258,10 @@ const config: Config = {
     },
     navbar: {
       title: 'Agora Protocol',
-      logo: {
+      /*logo: {
         src: 'img/header_logo.svg',
         alt: 'Agora Protocol',
-      },
+      },*/
       style: 'dark',
       items: [
         {
