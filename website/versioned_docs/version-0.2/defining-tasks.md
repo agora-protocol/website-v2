@@ -117,4 +117,6 @@ Use the raw API when:
 - You want full control over the task schema
 - You are creating tasks programmatically
 
-<BoxLink href="https://docs.expo.dev/get-started/set-up-your-environment">Continue with Expo</BoxLink>
+## Next Steps
+
+<BoxLink href="/docs/protocol/beginner-friendly">Protocol Specification</BoxLink>
