@@ -110,12 +110,8 @@ server.run(port=5000)
 ```
 
 We're done! The `get_temperature` task can now be used seamlessly in your custom workflow, or even by another agent.
-For example, here's the `get_temperature` task integrated with a LangChain agent:
-
-```python
-
-```
 
 ### Next Steps
 
-<BoxLink href="https://docs.expo.dev/get-started/set-up-your-environment">Continue with Expo</BoxLink>
+<BoxLink href="/docs/defining-tasks">Defining Tasks</BoxLink>
+<BoxLink href="/docs/protocol/beginner-friendly">Protocol Specification</BoxLink>
