@@ -213,14 +213,13 @@ const config: Config = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
-    /*announcementBar: {
-      id: 'new-architecture',
-      content:
-        'The New Architecture has arrived - <a target="_blank" rel="noopener noreferrer" href="/blog/2024/10/23/the-new-architecture-is-here">learn more</a>',
+    announcementBar: {
+      id: 'under-construction',
+      content: 'Website under construction -- expect breaking changes!',
       backgroundColor: '#20232a',
       textColor: '#fff',
-      isCloseable: false,
-    },*/
+      isCloseable: true,
+    },
     prism: {
       defaultLanguage: 'jsx',
       theme: require('./core/PrismTheme'),
