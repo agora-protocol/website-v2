@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
       <Platforms />
       <Native />
-      <InANutshell />
+      {/*<InANutshell />*/}
       <CallToAction />
       <FAQ />
     </>
