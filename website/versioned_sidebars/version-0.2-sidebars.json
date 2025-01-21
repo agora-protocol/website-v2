@@ -4,16 +4,5 @@
   },
   "specification": {
     "Specification": ["protocol/beginner-friendly", "protocol/specification"]
-  },
-  "api": {
-    "APIs": [
-      "camel-toolformer",
-      {
-        "type": "category",
-        "label": "Toolformers",
-        "collapsed": false,
-        "items": ["camel-toolformer"]
-      }
-    ]
   }
 }

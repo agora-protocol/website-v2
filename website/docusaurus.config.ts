@@ -279,11 +279,6 @@ const config: Config = {
               type: 'doc',
               docId: 'protocol/beginner-friendly',
             },
-            {
-              label: 'API',
-              type: 'doc',
-              docId: 'camel-toolformer',
-            },
           ],
         },
         /*{
