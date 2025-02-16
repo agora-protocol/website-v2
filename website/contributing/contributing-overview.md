@@ -51,8 +51,8 @@ Once a change made on GitHub is approved, it will first be imported into Faceboo
 
 You can learn more about the contribution process in the following documents:
 
-- [Triaging GitHub Issues](/contributing/triaging-github-issues)
-- [Managing Pull Requests](/contributing/managing-pull-requests)
+- [Triaging GitHub Issues]
+- [Managing Pull Requests]
 
 We also have a thriving community of contributors who would be happy to help you get set up. You can reach out to the React Native team through [@ReactNative](https://twitter.com/reactnative).
 
@@ -100,13 +100,13 @@ Code-level contributions to React Native generally come in the form of [pull req
 
 ### Step-by-step Guide
 
-Whenever you are ready to contribute code, check out our [step-by-step guide to sending your first pull request](/contributing/how-to-open-a-pull-request), or read the [How to Contribute Code](/contributing/how-to-contribute-code) page for more details.
+Whenever you are ready to contribute code, check out our [step-by-step guide to sending your first pull request], or read the [How to Contribute Code](/contributing/how-to-contribute-code) page for more details.
 
 ### Tests
 
 Tests help us prevent regressions from being introduced to the codebase. The GitHub repository is continuously tested using CircleCI, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/HEAD) and pull requests.
 
-You can learn more about running and writing tests on the [How to Run and Write Tests](/contributing/how-to-run-and-write-tests) page.
+You can learn more about running and writing tests on the [How to Run and Write Tests] page.
 
 ## Community Contributions
 

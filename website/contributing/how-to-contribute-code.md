@@ -10,7 +10,7 @@ Issues labeled [`help wanted`](https://github.com/facebook/react-native/issues?u
 ## Prerequisites
 
 :::info
-Please refer to the [Environment Setup](/docs/environment-setup) guide to setup required tools and the development environment based on the platform us use and platform which you want to develop for.
+Please refer to the [Environment Setup] guide to setup required tools and the development environment based on the platform us use and platform which you want to develop for.
 :::
 
 ## Development Workflow
@@ -74,16 +74,16 @@ Code-level contributions to React Native generally come in the form of [a pull r
 7. Create a pull request to the React Native repository.
 8. Review and address comments on your pull request.
 9. A bot may comment with suggestions. Generally we ask you to resolve these first before a maintainer will review your code.
-10. If you haven't already, submit the [Contributor License Agreement ("CLA")](#contributor-license-agreement).
+10. If you haven't already, submit the [Contributor License Agreement ("CLA")].
 
 If all goes well, your pull request will be merged. If it is not merged, maintainers will do their best to explain their reasoning.
 
-If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](/contributing/how-to-open-a-pull-request). For more detailed information on how pull requests are handled, see the [Managing Pull Requests page](managing-pull-requests).
+If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started]. For more detailed information on how pull requests are handled, see the [Managing Pull Requests page].
 
 ### Contributor License Agreement
 
-In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](/contributing/contribution-license-agreement). You only need to do this once to work on any of Meta's open source projects. It only takes a minute, so you can do it while you wait for your dependencies to install.
+In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)]. You only need to do this once to work on any of Meta's open source projects. It only takes a minute, so you can do it while you wait for your dependencies to install.
 
 ## License
 
-By contributing to React Native, you agree that your contributions will be licensed under the [LICENSE](https://github.com/facebook/react-native/blob/main/LICENSE) file in the root directory of the React Native repository.
+By contributing to React Native, you agree that your contributions will be licensed under the [LICENSE] file in the root directory of the React Native repository.

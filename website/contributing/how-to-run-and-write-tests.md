@@ -4,7 +4,7 @@ title: How to Run and Write Tests
 
 ## Running Tests
 
-This section is about testing your changes to React Native as a contributor. If you haven't yet, go through the steps to set up your development environment for [building projects with native code](/docs/environment-setup).
+This section is about testing your changes to React Native as a contributor. If you haven't yet, go through the steps to set up your development environment for [building projects with native code].
 
 ### JavaScript Tests
 
