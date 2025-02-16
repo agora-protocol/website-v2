@@ -413,9 +413,9 @@ const config: Config = {
       copyright,
     },
     algolia: {
-      appId: '8TDSE0OHGQ',
-      apiKey: '83cd239c72f9f8b0ed270a04b1185288',
-      indexName: 'react-native-v2',
+      appId: 'RV6HHRU8EM',
+      apiKey: '49f45422e822e9db26926d720bff8974',
+      indexName: 'agora-protocol',
       contextualSearch: true,
     },
     metadata: [
