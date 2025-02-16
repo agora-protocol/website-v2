@@ -279,6 +279,11 @@ const config: Config = {
               type: 'doc',
               docId: 'protocol/beginner-friendly',
             },
+            {
+              label: 'Python Reference',
+              type: 'doc',
+              docId: 'python/common/core',
+            },
           ],
         },
         /*{
@@ -332,16 +337,24 @@ const config: Config = {
               to: 'docs/getting-started',
             },
             {
+              label: 'Protocol',
+              to: 'docs/protocol/beginner-friendly',
+            },
+            {
+              label: 'Python Reference',
+              to: 'docs/python/common/core',
+            },
+            /*{
               label: 'Components',
               to: 'docs/components-and-apis',
             },
             {
               label: 'APIs',
               to: 'docs/accessibilityinfo',
-            },
+            },*/
           ],
         },
-        {
+        /*{
           title: 'Participate',
           items: [
             {
@@ -361,7 +374,7 @@ const config: Config = {
             //  href: 'https://stackoverflow.com/questions/tagged/react-native',
             //},
           ],
-        },
+        },*/
         {
           title: 'Find us',
           items: [

@@ -4,7 +4,7 @@ export default {
   docs: {
     'The Basics': ['getting-started'],
   },
-  specification: {
+  /*specification: {
     Specification: ['protocol/beginner-friendly'],
   },
   api: {
@@ -17,5 +17,5 @@ export default {
         items: ['camel-toolformer'],
       },
     ],
-  },
+  },*/
 } satisfies SidebarsConfig;
