@@ -415,7 +415,7 @@ const config: Config = {
     algolia: {
       appId: 'RV6HHRU8EM',
       apiKey: '49f45422e822e9db26926d720bff8974',
-      indexName: 'agora-protocol',
+      indexName: 'agoraprotocol_org_rv6hhru8em_pages',
       contextualSearch: true,
     },
     metadata: [
