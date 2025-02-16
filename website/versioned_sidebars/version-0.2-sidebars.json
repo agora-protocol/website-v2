@@ -4,5 +4,74 @@
   },
   "specification": {
     "Specification": ["protocol/beginner-friendly", "protocol/specification"]
-  }
+  },
+  "reference": [
+    {
+      "type": "category",
+      "items": [
+        "python/common/core",
+        "python/common/errors",
+        "python/common/executor",
+        "python/common/function_schema",
+        "python/common/memory",
+        "python/common/storage",
+        {
+          "type": "category",
+          "label": "Interpreters",
+          "items": ["python/common/interpreters/restricted"]
+        },
+        {
+          "type": "category",
+          "label": "Toolformers",
+          "items": [
+            "python/common/toolformers/base",
+            "python/common/toolformers/camel",
+            "python/common/toolformers/langchain"
+          ]
+        }
+      ],
+      "label": "Common"
+    },
+    {
+      "type": "category",
+      "items": [
+        "python/sender/core",
+        "python/sender/memory",
+        "python/sender/schema_generator",
+        "python/sender/task_schema",
+        {
+          "type": "category",
+          "label": "Components",
+          "items": [
+            "python/sender/components/negotiator",
+            "python/sender/components/programmer",
+            "python/sender/components/protocol_picker",
+            "python/sender/components/querier",
+            "python/sender/components/transporter"
+          ]
+        }
+      ],
+      "label": "Sender"
+    },
+    {
+      "type": "category",
+      "items": [
+        "python/receiver/core",
+        "python/receiver/memory",
+        "python/receiver/server",
+        {
+          "type": "category",
+          "label": "Components",
+          "items": [
+            "python/receiver/components/negotiator",
+            "python/receiver/components/programmer",
+            "python/receiver/components/protocol_checker",
+            "python/receiver/components/responder"
+          ]
+        }
+      ],
+      "label": "Receiver"
+    },
+    "python/utils"
+  ]
 }
