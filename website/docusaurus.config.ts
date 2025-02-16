@@ -312,7 +312,7 @@ const config: Config = {
           ],
         },*/
         {
-          href: 'https://github.com/agora-protocol/python',
+          href: 'https://discord.gg/MXmfhwQ4FB',
           'aria-label': 'Discord server',
           position: 'right',
           className: 'navbar-discord-link',
