@@ -28,6 +28,7 @@ const Index = () => {
           property="twitter:title"
           content="Agora Protocol · Scalable Communication Between Agents"
         />
+        <meta name="algolia-site-verification" content="9C1C6A5FA75676C3" />
       </Head>
       <Home />
     </Layout>
