@@ -413,9 +413,9 @@ const config: Config = {
       copyright,
     },
     algolia: {
-      appId: 'RV6HHRU8EM',
-      apiKey: '49f45422e822e9db26926d720bff8974',
-      indexName: 'agoraprotocol_org_rv6hhru8em_pages',
+      appId: '7QC29Z1DCF',
+      apiKey: '6fd4e8ad7dddf1d600a53fe775796657',
+      indexName: 'agoraprotocol',
       contextualSearch: true,
     },
     metadata: [
