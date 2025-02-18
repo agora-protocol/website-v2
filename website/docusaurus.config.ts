@@ -416,7 +416,7 @@ const config: Config = {
       appId: '7QC29Z1DCF',
       apiKey: '6fd4e8ad7dddf1d600a53fe775796657',
       indexName: 'agoraprotocol',
-      contextualSearch: true,
+      contextualSearch: false,
     },
     metadata: [
       {
