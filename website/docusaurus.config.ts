@@ -213,13 +213,13 @@ const config: Config = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
-    announcementBar: {
+    /*announcementBar: {
       id: 'under-construction',
       content: 'Website under construction -- expect breaking changes!',
       backgroundColor: '#20232a',
       textColor: '#fff',
       isCloseable: true,
-    },
+    },*/
     prism: {
       defaultLanguage: 'jsx',
       theme: require('./core/PrismTheme'),
