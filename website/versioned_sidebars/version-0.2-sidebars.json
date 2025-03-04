@@ -1,6 +1,11 @@
 {
   "docs": {
-    "The Basics": ["getting-started", "defining-tasks"]
+    "The Basics": [
+      "getting-started",
+      "defining-tasks",
+      "components",
+      "troubleshooting"
+    ]
   },
   "specification": {
     "Specification": ["protocol/beginner-friendly", "protocol/specification"]
